@@ -1,4 +1,4 @@
-function [w,b] = GradientDescent()
+function [w,b] = StandardGradientDescent()
 A = dlmread('perceptron.data',',');
 w=[0,0,0,0];
 b=0;
